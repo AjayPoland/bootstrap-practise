@@ -4,7 +4,7 @@ import BtHeader from "./ocmponent/BtHeader";
 function App() {
   return (
     <div className="App">
-      <BtHeader />
+       <BtHeader />
       <header className="App-header"></header>
     </div>
   );

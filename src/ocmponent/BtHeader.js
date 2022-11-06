@@ -11,7 +11,7 @@ import "bootstrap/dist/css/bootstrap.min.css";
 //whole coding is copied from the react-bootstrap 
 export default function BtHeader() {
   return (
-    <Navbar bg="light" expand="lg">
+    <Navbar bg="secondary" expand="lg">
       <Container fluid>
         <Navbar.Brand href="#">India~Traval</Navbar.Brand>
         <Navbar.Toggle aria-controls="navbarScroll" />
@@ -44,7 +44,7 @@ export default function BtHeader() {
               className="me-2"
               aria-label="Search"
             />
-            <Button variant="outline-success">Search</Button>
+            <Button variant="outline-light">Search</Button>
           </Form>
         </Navbar.Collapse>
       </Container>
