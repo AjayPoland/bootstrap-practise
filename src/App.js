@@ -1,10 +1,11 @@
 import "./App.css";
-import BtHeader from "./ocmponent/BtHeader";
+import Alert from "./ocmponent/Alert";
+import BtHeader from "./ocmponent/Alert";
 
 function App() {
   return (
     <div className="App">
-       <BtHeader />
+       <Alert/>
       <header className="App-header"></header>
     </div>
   );
