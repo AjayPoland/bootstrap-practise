@@ -1,12 +1,11 @@
 import "./App.css";
-import Alert from "./ocmponent/Alert";
-import BtHeader from "./ocmponent/Alert";
+import DemoAlert from "./component/Alert";
+
 
 function App() {
   return (
     <div className="App">
-       <Alert/>
-      <header className="App-header"></header>
+      <header className="App-header"><DemoAlert/></header>
     </div>
   );
 }
