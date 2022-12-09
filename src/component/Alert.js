@@ -12,9 +12,9 @@ const initalObj = {
 const reducer = (state, action) => {
   switch (action.type) {
     case "CloseOne":
-      return {...initalObj, alert_one: !state.alert_one };
+      return {...state,alert_one: !state.alert_one };
     case "CloseTwo":
-      return {...initalObj, alert_two: !state.alert_two };
+      return {...state, alert_two: !state.alert_two };
   }
 };
 export default function DemoAlert() {
@@ -62,6 +62,7 @@ export default function DemoAlert() {
             Show Alert
           </Button>
         )}
+        {JSON.stringify(state)}
         <Alert show={state.alert_two} variant="danger">
         <h1>Here is some custome dismissible button</h1>
         <p>This custome close button is applied without dimissible prop, to the Alert element. Just using Boolean state to hide and show the alert.</p>

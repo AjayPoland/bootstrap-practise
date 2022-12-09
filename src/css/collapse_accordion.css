@@ -1,0 +1,6 @@
+.accordion-button{
+    border-color: hsl(32, 61%, 57%);
+    background-color: rgb(245, 205, 130);
+    color:rgb(49, 91, 92);
+    font-weight: bold;
+}
