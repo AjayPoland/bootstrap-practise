@@ -12,7 +12,7 @@ export default function CollapseAccordion() {
       <div className="container ">
         <h1>Collapse & Accordion</h1>
         <p className="text-bg-success rounded-2 p-2">
-          In React, Collapse is murged with Accorion. So to create collapse, we
+          In React, Collapse is murged with Accordion. So to create collapse, we
           need to write the custome function to toggle the collpase.
         </p>
       </div>
