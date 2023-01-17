@@ -1,0 +1,12 @@
+[
+    {
+        "id": 1 ,
+        "src":"images/flower.jpg",
+        "name":"flower"
+    },
+    {
+        "id":2,
+        "src":"images/mypic.jpg",
+        "name":"mypic"
+    }
+]

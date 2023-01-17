@@ -1,0 +1,8 @@
+.form-control::-webkit-inner-spin-button, 
+.form-control::-webkit-outer-spin-button { 
+  -webkit-appearance: none;
+}
+.container{
+    background-color: darkslategray;
+    color:white;
+}
